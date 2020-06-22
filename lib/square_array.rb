@@ -1,8 +1,7 @@
 def square_array(array)
-  # your code here
-  squaredArray=[]
+  squares = []
   array.length.times do |counter|
-    squares.push(array[counter]**2)
-end
-return squaredArray
+    squares.push(array[counter] ** 2)
+  end
+  return squares
 end
